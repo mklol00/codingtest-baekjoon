@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class _2750_ {
+public class _2750_수정렬하기 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
@@ -13,15 +13,7 @@ public class _2750_ {
         Arrays.sort(arr);
         for (int j : arr) {
             System.out.println(j);
+
         }
-        /*for (int j = 1; j <= arr.length; j++) {
-            System.out.println(j);
-        }*/
-
-        /*int[]arr2 = {1,2,3,4,5};
-        for (int k = 0; k < arr2.length; k++) {
-            System.out.println(arr2[k]);
-        }*/
-
     }
 }
